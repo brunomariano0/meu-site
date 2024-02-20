@@ -185,7 +185,7 @@ section.especialidades {
 }
 
 section.especialidades .flex {
-    gap: 65px;
+    gap: 55px;
 }
 
 .especialidades .especialidades-box {
@@ -407,7 +407,7 @@ footer h2 {
 
   /* Mobile */
 
-@media (max-width:1020px) {
+@media (max-width:1400px) {
 
      /* CABEÇALHO */
      
@@ -461,9 +461,16 @@ footer h2 {
     }
 
     .interface  .especialidades-box {
-        margin: 30px auto;       
+        margin: auto;       
         width: 300px;
+        
     }
+
+    section.especialidades .flex {
+        gap: 10px;
+    }
+
+   
 
     /* Sobre mim */
 
