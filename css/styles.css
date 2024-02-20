@@ -408,7 +408,7 @@ footer h2 {
 
   /* Mobile */
 
-@media (max-width:1400px) {
+@media (max-width:1020px) {
 
      /* CABEÇALHO */
      
@@ -457,7 +457,7 @@ footer h2 {
     /* Minhas especialidades */
 
     .interface h2 {
-        font-size: 30px;
+        font-size: 15px;
         text-align: center;
     }
 
@@ -502,4 +502,7 @@ footer h2 {
         align-items: center;
         gap: 50px;
     }
+
+
+
 }
