@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="/css/styles.css" />
-   
+    <link rel="shortcut icon" href="/assets/code-svgrepo-com.svg" />
+    <link rel="stylesheet" href="/css/styles.css" />  
     
     
     <title>Bruno Mariano</title>
@@ -14,9 +14,12 @@
     <header>
         <div class="interface">
             <div class="logo">
-                <a href="#">
-                    <h2>Bruno /> Mariano</h2>
+                <div class="flex-top">
+                    <a href="">
+                        <img src="/assets/code-svgrepo-com.svg" alt="">
+                    <h2>Bruno Mariano</h2>
                 </a>
+            </div>
             </div><!--Logo-->
 
             <nav class="menu-desktop">
@@ -29,7 +32,7 @@
             </nav>
 
             <div class="btn-contato">
-                <a href="">
+                <a href="#page-form">
                     <button>Contato</button>
                 </a>
             </div>
@@ -37,14 +40,34 @@
         </div><!--interface-->
     </header>
 
-    <main>       
+    <main> 
         
+        
+        <section id="page-2" class="sobre">                       
+            <div class="interface">
+                <div class="flex">                    
+                    <div class="img-sobre">
+                        <img class="photo" src="/assets/40373544.jfif" alt="">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER,
+                            <span>SOU BRUNO MARIANO</span>
+                        </h2>
+                        <p>Desenvolvedor Front-end com experiência em React.js, JavaScript, TypeScript,
+                             Styled Components, Material UI e consumo de APIs REST. </p>
+                        <p>Apaixonado pelo desenvolvimento de componentes reutilizáveis. 
+                            Também possui experiência em projetos gerenciados por Metodologias Ágeis. 
+                             Formado em Sistemas de Informação.</p>                        
+                    </div><!--txt-sobre-->                    
+
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--Sobre-->
+
         <section class="topo-do-site">
-            <div id="particles-js">
-            </div> <!-- stats - count particles -->
-     
-        </div> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
-        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+            <div id="particles-js"></div>      
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
         <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
             <div class="interface">
                 <div class="flex">
@@ -53,12 +76,7 @@
                         <p>Criatividade e inovação andam lado a lado. Com uma combinação única de design impactante,
                              funcionalidade intuitiva e otimazação para resultados, estou pronto para criar a presença
                               online dos seus sonhos.</p>
-
-                              <div class="btn-contato">
-                                <a href="">
-                                    <button>Entre em contato</button>
-                                </a>
-                              </div>
+                             
                     </div><!--txt topo site-->
                     <div class="img-topo-site">
                         <img class="img" src="/assets/criacao-de-site.png" alt="Foto do Bruno">
@@ -67,6 +85,8 @@
                 </div>
             </div><!--interface-->
         </section><!--topo do site-->
+
+        
 
         <section id="page-1" class="especialidades">
             <div class="interface">
@@ -100,64 +120,54 @@
             </div><!--interface-->
         </section><!--especialidades-->
 
-        <section id="page-2" class="sobre">
-            <div class="interface">
-                <div class="flex">
-                    <div class="img-sobre">
-                        <img class="photo" src="/assets/40373544.jfif" alt="">
-                    </div><!--img-sobre-->
-
-                    <div class="txt-sobre">
-                        <h2>MUITO PRAZER,
-                            <span>SOU BRUNO MARIANO</span>
-                        </h2>
-                        <p>Desenvolvedor Front-end com experiência em React.js, JavaScript, TypeScript,
-                             Styled Components, Material UI e consumo de APIs REST. </p>
-                        <p>Apaixonado pelo desenvolvimento de componentes reutilizáveis. 
-                            Também possui experiência em projetos gerenciados por Metodologias Ágeis. 
-                             Formado em Sistemas de Informação.</p>                        
-                    </div><!--txt-sobre-->                    
-
-                </div><!--flex-->
-            </div><!--interface-->
-        </section><!--Sobre-->
+        
 
         <section  class="portfolio">
             <div class="interface">
                 <h2 class="titulo">PROJETOS</h2>
                 <div class="flex">
-                    <div class="img-port" style="background-image: url(./assets/construcao.avif);">
-                        <a target="_blank" href="https://www.google.com">                        
-                        <div class="overlay">Code Hive</div>
-                    </a>
-                    <p>Em desenvolvimento</p>
+                    <div class="img-port">
+                        <div class="img-projet">
+                            <h2>Previsão do tempo</h2>
+                            <a target="_blank" href="https://previsao-rosy.vercel.app/"><img src="/assets/tempo.jpg" alt="">
+                            </a>                            
+                        </div>                                                           
                     </div>
-                    <div class="img-port" style="background-image: url(./assets/construcao.avif);">
-                        <a target="_blank" href="https://www.google.com">                        
-                        <div class="overlay">Code Hive</div>
-                    </a>
-                    <p>Em desenvolvimento</p>
+
+
+                    <div class="img-port">
+                        <div class="img-projet">
+                            <h2>Adivinhe o número</h2>
+                            <a target="_blank" href="https://jogo-phi-five.vercel.app/"><img src="/assets/Jogo.png" alt="">
+                            </a>                              
+                        </div>                                                           
                     </div>
-                    <div class="img-port" style="background-image: url(./assets/construcao.avif);">
-                        <a target="_blank" href="https://www.google.com">                        
-                        <div class="overlay">Code Hive</div>
-                    </a>
-                    <p>Em desenvolvimento</p>
+
+
+                    <div class="img-port">
+                        <div class="img-projet">
+                            <h2>Code Hive - Em Produção</h2>
+                            <a target="_blank" href="https://github.com/brunomariano0/code-hive"><img src="/assets/construcao.avif" style="height: 175px;" alt="">
+                            </a>                             
+                        </div>                                                           
                     </div>
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--portfolio-->
 
-        <section class="formulario">
+
+
+        <section id="#page-form" class="formulario">
             <div class="interface">
+                
                 <h2 class="titulo">Fale Comigo</h2>
 
-                <form method="post" action="/envia.php">
-                    <input type="text" id="nome" name="nome" placeholder="Seu nome:" required>
-                    <input type="text" id="email" name="email" placeholder="Seu e-mail:" required>
-                    <input type="text" id="telefone" name="telefone" placeholder="Seu celular:">
-                    <textarea name="" placeholder="Sua mensagem"></textarea>
-                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                <form action="https://formsubmit.co/f45b77a0becdf00d84fa17111e983329" method="POST">
+                    <input type="text" name="nome" placeholder="Seu nome:"required>
+                    <input type="text" name="email" placeholder="Seu e-mail:"required>                    
+                    <textarea id="mensagem" name="mensagem"  placeholder="Sua mensagem"required></textarea>
+                    <button class="btn-form" type="submit" data-button>Enviar</button>
+                    <!-- <div class="btn-enviar"><input type="submit" value="ENVIAR"></div> -->
                 </form>
             </div>
         </section>
@@ -176,7 +186,8 @@
 
     </main>
 
-    <script src="/js/teste.js"></script> 
+   
+<script src="/js/teste.js"></script>    
 <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
