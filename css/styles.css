@@ -286,14 +286,21 @@ section.sobre .flex {
 
 /* pORTFÓLIO */
 
+
+
 section.portfolio {   
     padding: 40px 4%;
     box-shadow: 0 0 40px 10px #47383875;
+    
 }
 
 section.portfolio .flex {
     justify-content: space-around;
     margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+   
 }
 
 .titulo-projetos {
@@ -307,12 +314,16 @@ section.portfolio .flex {
 .img-projetos {
     width: 250px;
     height: 150px;
+    
 }
 
 .img-port .img-projet h2 {
     color: #FFF;
     text-align: center;
     font-family: 'poppins',sans-serif;
+    width: 21.9rem;
+    border-radius: 5px 5px 5px 0
+    
 }
 
 .img-projet img {
@@ -331,6 +342,7 @@ section.portfolio .flex {
     background-color: #424242;    
     font-size: 15px;
     color: #010101;
+    
     
 }
 
